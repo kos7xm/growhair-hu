@@ -1,5 +1,5 @@
 <?php
-//const KMA_ACCESS_TOKEN = 'izEaD1xhj0nHdxbdyxR3mjIsENx36ir2';
+const KMA_ACCESS_TOKEN = 'izEaD1xhj0nHdxbdyxR3mjIsENx36ir2';
 const KMA_CHANNEL = '8n1gMt';
 
 $headers = [
