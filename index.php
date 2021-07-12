@@ -888,8 +888,8 @@ $tid=$_GET['tid'];
                                     </center>
                                     <br><br> <br>
                                     <form action="api.php" class="torder_form orderForm" method="POST">
-                                        <input id="data1" type="text" name="data1" value="<?php echo $data1;?>">
-                                        <input id="data2" type="text" name="data2" value="<?php echo $tid;?>">
+                                        <input id="data1" type="hidden" name="data1" value="<?php echo $data1;?>">
+                                        <input id="data2" type="hidden" name="data2" value="<?php echo $tid;?>">
                                         <center><s> 27800 HUF
                                             </s>
 
