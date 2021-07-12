@@ -1,10 +1,5 @@
 <?php
-$camp = $_GET['camp'];
-$adset = $_GET['adset'];
-$ban = $_GET['ban'];
-$placement = $_GET['placement'];
-$s4 = $_GET['s4'];
-$fbclid = $_GET['fbclid'];
+$data1 = $camp = $_GET['camp']."/".$_GET['adset']."/".$_GET['ban'];
 $tid=$_GET['tid'];
 ?>
 
@@ -893,7 +888,7 @@ $tid=$_GET['tid'];
                                     </center>
                                     <br><br> <br>
                                     <form action="api.php" class="torder_form orderForm" method="POST">
-                                        <input id="gata1" type="text" name="data1" value="<?php echo $camp/$adset/$ban;?>">
+                                        <input id="data1" type="text" name="data1" value="<?php echo $data1;?>">
                                         <input id="data2" type="text" name="data2" value="<?php echo $tid;?>">
                                         <center><s> 27800 HUF
                                             </s>
