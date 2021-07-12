@@ -10,11 +10,9 @@ $headers = [
 $data = [
     'channel' => KMA_CHANNEL,
     'ip' => getIp(),
-    'data1' => $_GET['camp'] . "/" . $_GET['adset'] . "/" . $_GET['ban'],
-    'data2' => $_GET['tid']
 ];
 
-foreach (['name', 'phone', 'data3', 'data4', 'data5', 'fbp', 'click', 'referer', 'return_page', 'client_data', 'address'] as $item) {
+foreach (['name', 'phone','data1','data2', 'data3', 'data4', 'data5', 'fbp', 'click', 'referer', 'return_page', 'client_data', 'address'] as $item) {
     if (isset($_GET[$item]) && !empty($_GET[$item])) {
         $data[$item] = $_GET[$item];
     }
