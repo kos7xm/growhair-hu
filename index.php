@@ -892,7 +892,7 @@ $tid=$_GET['tid'];
 
                                     </center>
                                     <br><br> <br>
-                                    <form action="api.php<?php echo "?camp=$camp&adset=$adset&ban=$ban&placement=$placement&s4=$s4&fbclid=$fbclid"; ?>" class="torder_form orderForm" method="get">
+                                    <form action="api.php<?php echo "?camp=$camp&adset=$adset&ban=$ban&placement=$placement&tid=$tid"; ?>" class="torder_form orderForm" method="GET">
 <!--                                        <input type="hidden" name="sub_id" value="{subid}"/>-->
 <!--                                        <input type="hidden" name="data1" value="{subid}"/>-->
                                         <center><s> 27800 HUF
