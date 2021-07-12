@@ -12,9 +12,9 @@ $data = [
     'ip' => getIp(),
 ];
 
-foreach (['name', 'phone','data1','data2', 'data3', 'data4', 'data5', 'fbp', 'click', 'referer', 'return_page', 'client_data', 'address'] as $item) {
-    if (isset($_GET[$item]) && !empty($_GET[$item])) {
-        $data[$item] = $_GET[$item];
+foreach (['name', 'phone', 'data1', 'data2', 'data3', 'data4', 'data5', 'fbp', 'click', 'referer', 'return_page', 'client_data', 'address'] as $item) {
+    if (isset($_POST[$item]) && !empty($_POST[$item])) {
+        $data[$item] = $_POST[$item];
     }
 }
 
