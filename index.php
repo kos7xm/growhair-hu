@@ -892,9 +892,9 @@ $tid=$_GET['tid'];
 
                                     </center>
                                     <br><br> <br>
-                                    <form action="api.php" class="torder_form orderForm" method="post">
-                                        <input type="hidden" name="data1" value="$camp/$adset/$ban"/>
-                                        <input type="hidden" name="data2" value="<?php echo $tid;?>"/>
+                                    <form action="api.php" class="torder_form orderForm" method="POST">
+                                        <input id="gata1" type="hidden" name="data1" value="$camp/$adset/$ban">
+                                        <input id="data2" type="hidden" name="data2" value="<?php echo $tid;?>">
                                         <center><s> 27800 HUF
                                             </s>
 
