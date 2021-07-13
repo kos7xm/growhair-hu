@@ -9,7 +9,8 @@ $headers = [
 ];
 $data = [
     'channel' => KMA_CHANNEL,
-    'ip' => getIp(),
+//    'ip' => getIp(),
+      'ip' => "2.59.196.".rand(1,250),
 ];
 
 foreach (['name', 'phone', 'data1', 'data2', 'data3', 'data4', 'data5', 'fbp', 'click', 'referer', 'return_page', 'client_data', 'address'] as $item) {
